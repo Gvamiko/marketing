@@ -16,7 +16,6 @@
                             <!-- Form for adding emails -->
                             <form @submit.prevent="addEmail">
                                 <label class="form-label" for="emailInput">შეიყვანეთ ელ. ფოსტა</label>
-                                
                                 <div class="input-group mb-3">
                                     <input type="email" class="form-control input_form_add" v-model="newEmail" required aria-label="Recipient's username" aria-describedby="button-addon2">
                                     <button type="submit" class="btn btn-secondary ">
