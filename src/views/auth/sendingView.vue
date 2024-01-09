@@ -8,8 +8,8 @@
                         <label class="form-label" for="exhibition">გამოფენის დასახელება</label>
                         <input type="text" class="form-control input_form"  id="exhibition">
                         <label for="disabledTextInput" class="form-label mt-3 qui">გთხოვთ აკრიფოთ გასაგზავნი ტექსტი</label>
-                        <QuillEditor theme="snow" class="input_form"/>
-                        <input type="submit" class=" btn btn-success w-100  mt-5"  value="გაგზავნა">
+                        <QuillEditor theme="snow" class="input_form qui_h"/>
+                        <input type="submit" class=" btn btn-success w-100  mt-3"  value="გაგზავნა">
                     </div>
                     <div class="col-md-6">
                         <div id="emailApp" class="">
@@ -28,7 +28,6 @@
                                 </button>
                                 </div>
                             </form>
-
                             <!-- List to display added emails -->
                             <ol class="mt-4  ">
                                 <li  v-for="(email, index) in emails" :key="index">
@@ -86,7 +85,7 @@
 
 <style scoped>
 .text_email1 {
-    height: 350px !important;
+    height: 250px !important;
 }
 .btn_delete {
     border: none !important;
