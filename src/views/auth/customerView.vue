@@ -130,7 +130,7 @@
                         <div class="row mb-1 mt-3" v-if="items.selected1 == 1 && selected != 0">
                             <div class="col-md-6">
                                 <div class="">
-                                    <label for="product" class="form-label">გაგზავნილი პროდუქციის მოცულობა (მაგ:100 -
+                                    <label for="product" class="form-label">გაგზავნილი პროდუქციის მოცულობა (მაგ: 100 -
                                         ცალი/კგ/ბოთლი...)</label>
                                     <input type="text" id="product" class="form-control input_form"
                                         oninvalid="this.setCustomValidity('შეიყვანეთ გაგზავნილი პროდუქციის მოცულობა ') "
