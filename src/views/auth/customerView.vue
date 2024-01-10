@@ -115,7 +115,6 @@
                         <!-- <br> -->
 
                         <!-- ექსპორტი -->
-
                         <div class="row mt-3">
                             <div class="col-md-12 ">
                                 <label for="disabledTextInput" class="form-label qui ">პროდუქციის გაგზავნის შესახებ
@@ -127,7 +126,6 @@
                                 </select>
                             </div>
                         </div>
-
                         <!-- გაგზავინილია პროდუქცია -->
 
                         <div class="row mb-1 mt-3" v-if="items.selected1 == 1 && selected != 0">
