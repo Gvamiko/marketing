@@ -4,14 +4,14 @@
         <div class="container row_position">
             <form action="#" class=" form_bg">
                 <div class="row">
-                    <div class="col-md-6 text_email1">
+                    <div class="col-md-8 text_email1">
                         <label class="form-label" for="exhibition">გამოფენის დასახელება</label>
                         <input type="text" class="form-control input_form"  id="exhibition">
                         <label for="disabledTextInput" class="form-label mt-3 qui">გთხოვთ აკრიფოთ გასაგზავნი ტექსტი</label>
                         <QuillEditor theme="snow" class="input_form qui_h"/>
                         <input type="submit" class=" btn btn-success w-100  mt-3"  value="გაგზავნა">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div id="emailApp" class="">
                             <!-- Form for adding emails -->
                             <form @submit.prevent="addEmail">
@@ -28,8 +28,8 @@
                                 </div>
                             </form>
                             <!-- List to display added emails -->
-                            <ol class="mt-4  ">
-                                <li  v-for="(email, index) in emails" :key="index">
+                            <ol class="mt-4 ">
+                                <li v-for="(email, index) in emails" :key="index">
                                     {{ email }}
                                     <button class="btn  btn_delete" @click="deleteEmail(index)">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x delete_icon" viewBox="0 0 16 16">
